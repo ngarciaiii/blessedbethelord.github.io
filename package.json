@@ -1,21 +1,44 @@
 {
-  "name": "personalsite",
-  "version": "1.1.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "name": "jekflix-template",
+  "version": "2.0.0",
+  "description": "A Jekyll theme inspired by Netflix",
+  "main": "gulpfile.js",
+  "homepage": "https://github.com/thiagorossener/jekflix-template.git#readme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/thiagorossener/jekflix-template.git"
   },
-  "author": "Louis Rassaby",
-  "license": "ISC",
-  "dependencies": {
-    "browser-sync": "^2.23.6",
-    "gulp": "^3.9.1",
+  "keywords": [
+    "jekyll",
+    "template",
+    "theme",
+    "blog",
+    "netlify"
+  ],
+  "author": "Thiago Rossener",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/thiagorossener/jekflix-template/issues"
+  },
+  "devDependencies": {
+    "autoprefixer-stylus": "^0.14.0",
+    "browser-sync": "^2.26.7",
+    "child_process": "^1.0.2",
+    "del": "^5.0.0",
+    "gulp": "^4.0.2",
     "gulp-concat": "^2.6.1",
-    "gulp-csso": "^2.0.0",
-    "gulp-imagemin": "^6.2.0",
-    "gulp-plumber": "^1.2.0",
-    "gulp-sass": "^3.2.1",
-    "gulp-uglify": "^2.0.0"
+    "gulp-imagemin": "^6.0.0",
+    "gulp-include": "^2.4.1",
+    "gulp-plumber": "^1.1.0",
+    "gulp-rename": "^1.4.0",
+    "gulp-sourcemaps": "^2.6.5",
+    "gulp-stylus": "^2.6.0",
+    "gulp-uglify": "^3.0.0",
+    "gulp-yaml": "^2.0.4",
+    "jeet": "^7.1.0",
+    "kouto-swiss": "^1.1.0",
+    "rupture": "^0.6.2",
+    "lodash": "^4.17.13",
+    "lodash.merge": "^4.6.2"
   }
 }
