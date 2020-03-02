@@ -14,10 +14,13 @@
     text-align: center;
     margin: 0;
     .logo {
-      color: $dark-purple;
       text-decoration: none;
       &:hover {
         text-decoration: none;
+      }
+      .logo img {
+        height: 100px;
+        width: auto;
       }
       .author-name {
         text-transform: uppercase;
