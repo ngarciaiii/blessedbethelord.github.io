@@ -8,7 +8,7 @@
             {% for tag in site.relevant_tags %}
 
             {% assign words = tag | split: '-' %}
-            {% capture titlecase %}{% for word in words %}{{ word | capitalize }} {% endfor %}{% endcapture %}
+            {% capture titlecase %}{% for word in words %}{{ word | downcase }} {% endfor %}{% endcapture %}
             <button class="btn btn-secondary" data-filter=".{{tag}}">
                 {{ titlecase }}
             </button>
