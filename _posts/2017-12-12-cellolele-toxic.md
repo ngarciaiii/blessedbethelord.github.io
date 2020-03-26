@@ -6,7 +6,7 @@ tags: [music, cello, cellolele, cover]
 image: cellolele-arch.jpg
 type: video
 ---
-Here's a cover of Britney Spears' Toxic I put together with Shannon Ferguson. For more videos, see Shannon's 
+Here's a cover of Britney Spears' Toxic I put together with Shannon Ferguson. For more videos, see Shannon's
 [Youtube][youtube] or our [Instagram][instagram].
 
 <div class="iframe-wrapper">
